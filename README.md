@@ -21,23 +21,16 @@ Se entrenan cuatro modelos diferentes, y cada uno está guardado en un archivo `
 
 ### Estructura de archivos
 
-/machine__learning_api/
-
+<pre>/machine__learning_api/
 │
-
 ├── models
-
- ├── model_logistic.h5
- ├── model_forest.h5
- ├── model_svm.h5
- ├── model_tree.h5
-
+  ├── model_logistic.h5
+  ├── model_forest.h5
+  ├── model_svm.h5
+  ├── model_tree.h5
 ├── app.py
-
-
 ├── iris_models.py
-
-└── requirements.txt
+└── requirements.txt</pre>
 
 _____________________________________________________________________________________________________________________
 
