@@ -27,10 +27,10 @@ Se entrenan cuatro modelos diferentes, y cada uno está guardado en un archivo `
 
 ├── models
 
-    ├── model_logistic.h5
-    ├── model_forest.h5
-    ├── model_svm.h5
-    ├── model_tree.h5
+ ├── model_logistic.h5
+ ├── model_forest.h5
+ ├── model_svm.h5
+ ├── model_tree.h5
 
 ├── app.py
 
@@ -44,19 +44,19 @@ ________________________________________________________________________________
 
 # Proceso de creación de API
 
-* Crear una carpeta llamada `machine__learning_api`
+* Crea una carpeta llamada `machine__learning_api`
 
 Dentro de la carpeta machine__learning_api 
 
-* Crear una carpeta llamada `models`
+* Crea una carpeta llamada `models`
 
-* Crear un archivo llamado `requirements.txt` y que contenga lo siguiente:
+* Crea un archivo llamado `requirements.txt` y que contenga lo siguiente:
 
 <pre>flask
 scikit-learn
 joblib</pre>
 
-* Crear un archivo llamado iris_models.py y que contenga lo siguiente:
+* Crea un archivo llamado iris_models.py y que contenga lo siguiente:
 
 <pre>from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
